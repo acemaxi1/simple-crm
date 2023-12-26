@@ -10,24 +10,24 @@ Simple-CRM.
 
 ## Introduction
 
-This is a simple CRM application made for excercise purposes.
+This is a simple CRM application made for exercise purposes.
 
 ## Features
 
-List the key features of the project:
+List of key features of the project:
 
 - Filter by Customer
 - Table of Products/Orders that you can select
-- Orded Summary with total price and quantity
+- Order Summary with total price and quantity
 
 ## Installation
 
-Instruction on how to start project:
+Instructions on how to start the project:
 
-- Before you start the project make sure you have docker installed and the daemon running.
-- After you run the command bellow navigate to your http://localhost:8080/ in any browser.
-- There is no need for any database setup since the project uses a sqlite database which is included in the repo with data already prefilled.
-- If you lose your data there is sql scripts in the datascripts folder.
+- Before you start the project, make sure you have Docker installed and the daemon running.
+- After you run the command below, navigate to http://localhost:8080/ in any browser.
+- There is no need for any database setup since the project uses an SQLite database, which is included in the repo with data already prefilled.
+- If you lose your data, there are SQL scripts in the `datascripts` folder.
 
 ```bash
 cd root-dir-of-project
