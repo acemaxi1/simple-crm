@@ -1,1 +1,36 @@
-# simple-crm
+# Project Name
+
+Simple-CRM.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+This is a simple CRM application made for excercise purposes.
+
+## Features
+
+List the key features of the project:
+
+- Filter by Customer
+- Table of Products/Orders that you can select
+- Orded Summary with total price and quantity
+
+## Installation
+
+Instruction on how to start project:
+
+- Before you start the project make sure you have docker installed and the daemon running
+- After you run the command bellow navigate to your http://localhost:8080/ in any browser
+
+```bash
+cd root-dir-of-project
+docker build -t simple-crm .  
+docker run -p 8080:8080 simple-crm
