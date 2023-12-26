@@ -27,8 +27,10 @@ List the key features of the project:
 
 Instruction on how to start project:
 
-- Before you start the project make sure you have docker installed and the daemon running
-- After you run the command bellow navigate to your http://localhost:8080/ in any browser
+- Before you start the project make sure you have docker installed and the daemon running.
+- After you run the command bellow navigate to your http://localhost:8080/ in any browser.
+- There is no need for any database setup since the project uses a sqlite database which is included in the repo with data already prefilled.
+- If you lose your data there is sql scripts in the datascripts folder.
 
 ```bash
 cd root-dir-of-project
